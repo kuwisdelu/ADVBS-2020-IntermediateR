@@ -9,6 +9,12 @@ output: beamer_presentation
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Course materials
+
+The course materials for this workshop can be found at:
+
+- https://github.com/kuwisdelu/ADVBS-2020-IntermediateR
+
 ## Reproducible Workflows
 
 Before even jumping into R code, let's explore some useful concepts to writing good code.

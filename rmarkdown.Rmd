@@ -74,3 +74,14 @@ x <- seq(from=0, to=2*pi, length.out=100)
 sinx <- sin(x)
 plot(sinx ~ x)
 ```
+
+```{r car-plot, eval=FALSE}
+library(ggplot2)
+ggplot(cars) + geom_point(aes(x=speed, y=dist))
+```
+
+---
+
+```{r car-plot, echo=FALSE}
+```
+
